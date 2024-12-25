@@ -15,7 +15,7 @@ export default function About() {
           </p> */}
                <h1 className="text-green-600 font-semibold border-l-4 border-green-500 pl-2 my-3 text-xl">Education </h1>
                <span>
-                  <h3>Bachelor&aposs in Computer Applications (BCA) - 2022-2025</h3>
+                  <h3>Bachelor's in Computer Applications (BCA) - 2022-2025</h3>
                </span>
                <br />
                <br />

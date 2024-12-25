@@ -32,7 +32,14 @@ export default function Navbar() {
                <ul className="hidden md:flex space-x-8">
                   {navItems.map((item) => (
                      <li className="hover:scale-105 duration-200 cursor-pointer hover:text-green-500 hover:underline" key={item.id}>
-                        <Link to={item.text} spy={true} duration={400} smooth={true} offset={-80} activeClass="active">
+                        <Link
+                           to={item.text}
+                           spy={true}
+                           duration={400}
+                           smooth={true}
+                           offset={-80}
+                           activeClass="active"
+                           className="uppercase font-medium ">
                            {item.text}
                         </Link>
                      </li>

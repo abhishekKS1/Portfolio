@@ -39,7 +39,7 @@ export default function Contact() {
                   className="bg-gradient-to-br from-cyan-500 to-blue-500 text-white w-96 px-8 py-6 rounded-xl">
                   <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
                   <div className="flex flex-col mb-4">
-                     <label className="block text-gray-700">Full Name</label>
+                     <label className="block text-white">Full Name</label>
                      <input
                         {...register("name", { required: true })}
                         id="name"
@@ -52,7 +52,7 @@ export default function Contact() {
                      {errors.name && <span>This field is required</span>}
                   </div>
                   <div className="flex flex-col mb-4">
-                     <label className="block text-gray-700">Email</label>
+                     <label className="block text-white">Email</label>
                      <input
                         {...register("email", { required: true })}
                         id="email"
@@ -65,7 +65,7 @@ export default function Contact() {
                      {errors.email && <span>This field is required</span>}
                   </div>
                   <div className="flex flex-col mb-4">
-                     <label className="block text-gray-700">Message</label>
+                     <label className="block text-white">Message</label>
                      <textarea
                         {...register("message", { required: true })}
                         id="message"
