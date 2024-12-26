@@ -3,17 +3,17 @@ import React from "react";
 export default function About() {
    return (
       <>
-         <div name="About" className="   max-w-screen-2xl container mx-auto px-4 md:px-20 ">
+         <div name="About" className=" px-8  max-w-screen-2xl container mx-auto px-4 md:px-20 ">
             <div className="md:mb-28">
                {" "}
-               <h1 className="text-3xl font-bold mb-5  underline md:my-16">About</h1>
+               <h1 className="text-3xl font-bold mb-5 md:ml-0 ml-3  underline my-12 md:my-16">About</h1>
                {/* <p>
             Hello, I'm Abhay, a passionate Web developer with a keen eye for
             MERN Stack . With a background in IT, I strive to create impactful
             and visually stunning Software solutions that leave a lasting
             impression.
           </p> */}
-               <h1 className="text-green-600 font-semibold border-l-4 border-green-500 pl-2 my-3 text-xl">Education </h1>
+               <h1 className="text-green-600 font-semibold border-l-4 border-green-500 pl-2 md:mt-0 mt-8 md:my-3 text-xl">Education </h1>
                <span>
                   <h3>Bachelor's in Computer Applications (BCA) - 2022-2025</h3>
                </span>

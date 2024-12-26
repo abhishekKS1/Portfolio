@@ -26,8 +26,8 @@ export default function Technologies() {
 
    return (
       <div name="Technologies" className="  max-w-screen-2xl container mx-auto px-4 md:px-20 ">
-         <div className="md:mb-28">
-            <h1 className="text-3xl font-semibold my-16 underline">Technologies</h1>
+         <div className="md:mb-16 mb-12">
+            <h1 className="text-3xl font-semibold my-16 ml-8 md:ml-0 underline">Technologies</h1>
             <div className="grid grid-cols-2 md:grid-cols-5 my-2 gap-4">
                {cardItem.map(({ id, logo, name }) => (
                   <div

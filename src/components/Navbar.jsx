@@ -22,7 +22,7 @@ export default function Navbar() {
             <div className="flex space-x-2">
                {/* <img src={pic} className="h-12 w-12 rounded-full " alt="" /> */}
                <IoMdCodeWorking size={35} />
-               <h1 className="font-normal text-xl cursor-pointer">
+               <h1 className="font-normal text-md md:text-xl cursor-pointer">
                   Abhishe<span className="text-green-500 text-2xl">k</span> Kumar Sharma
                   {/* <p className="text-sm">Fullstack Web Developer</p> */}
                </h1>
@@ -53,9 +53,11 @@ export default function Navbar() {
          {/* mobile navbar */}
          {menu && (
             <div className="bg-white">
-               <ul className=" md:hidden flex flex-col h-screen items-center justify-center space-y-3">
+               <ul className=" md:hidden flex flex-col h-screen items-center justify-start  space-y-12">
                   {navItems.map((item) => (
-                     <li className="hover:scale-105 font-medium duration-200 cursor-pointer" key={item.id}>
+                     <li
+                        className="hover:scale-105 font-medium mt-20 hover:text-green-500 duration-200 uppercase underline  cursor-pointer"
+                        key={item.id}>
                         <Link
                            onClick={() => setMenu(!menu)}
                            to={item.text}

@@ -13,7 +13,9 @@ import pic from "../../public/man-on-computer-vector-45762875.avif";
 export default function Home() {
    return (
       <>
-         <div name="Home" className="     md:mt-16  min-h-[calc(100vh-60px)]  max-w-screen-2xl container mx-auto px-4 md:px-20 ">
+         <div
+            name="Home"
+            className=" mb-20 md:mb-2    md:mt-16  min-h-[calc(100vh-60px)]  max-w-screen-2xl container mx-auto px-4 md:px-20 ">
             <div className="flex flex-col md:flex-row ">
                <div className="md:w-2/5 mt-12 md:mt-32 space-y-2 order-2 md:order-1">
                   {/* <span className="text-xl">Welcome to my feed</span> */}
@@ -60,8 +62,8 @@ export default function Home() {
                      </div>
                   </div>
                </div>
-               <div className=" md:mt-20 md:ml-64 order-1">
-                  <img src={pic} alt="" className="rounded-full md:w-[400px] object-fill  md:h-[400px]" />
+               <div className="mt-24 ml-12 md:mt-20 md:ml-64 order-1">
+                  <img src={pic} alt="" className="w-[280px] h-[280px] rounded-full md:w-[400px] object-fill  md:h-[400px]" />
                </div>
             </div>
          </div>
