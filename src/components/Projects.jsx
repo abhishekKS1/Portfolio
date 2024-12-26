@@ -25,7 +25,7 @@ export default function Projects() {
                               alt={name}
                               className="md:w-[400px] md:h-[400px] w-[250px] h-[250px] md:group-hover:opacity-50    shadow-lg object-contain group-hover:scale-105 duration-300"
                            />
-                           <div className="flex md:mt-0 md:ml-0 ml-2 mt-8 items-center justify-center md:invisible md:group-hover:visible md:absolute top-48 md:px-3 md:py-1 w-24 h-[35px] md:w-24 md:h-[40px]  rounded gap-3 left-40 bg-gray-800 text-white md:text-lg font-bold duration-100 ">
+                           <div className="flex md:mt-0 md:ml-0 ml-2 mt-8 items-center justify-center md:invisible md:group-hover:visible md:absolute top-48 md:px-3 md:py-1 w-24 h-[35px] md:w-24 md:h-[40px]  rounded gap-3 left-40 bg-gradient-to-r from-cyan-500 to-blue-500 text-white md:text-lg font-bold duration-100 ">
                               <FaServer />
                               <button>LIVE</button>
                            </div>
